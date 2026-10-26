@@ -1,0 +1,1015 @@
+[
+  {
+    "id": "gold_001",
+    "category": "factual",
+    "query": "What is the exact fiscal year end date for Apple's 2025 Form 10-K filing?",
+    "answer": "September 27, 2025",
+    "relevant_chunk_ids": [
+      "chunk_000",
+      "chunk_006",
+      "chunk_028"
+    ],
+    "difficulty": "easy",
+    "source": "Cover Page"
+  },
+  {
+    "id": "gold_002",
+    "category": "factual",
+    "query": "Where are Apple's principal executive offices located?",
+    "answer": "One Apple Park Way, Cupertino, California 95014",
+    "relevant_chunk_ids": [
+      "chunk_000"
+    ],
+    "difficulty": "easy",
+    "source": "Cover Page"
+  },
+  {
+    "id": "gold_003",
+    "category": "factual",
+    "query": "Under which ticker symbol is Apple's common stock registered on Nasdaq?",
+    "answer": "AAPL",
+    "relevant_chunk_ids": [
+      "chunk_000",
+      "chunk_001",
+      "chunk_141"
+    ],
+    "difficulty": "easy",
+    "source": "Cover Page"
+  },
+  {
+    "id": "gold_004",
+    "category": "factual",
+    "query": "What is Apple's SEC Commission File Number?",
+    "answer": "001-36743",
+    "relevant_chunk_ids": [
+      "chunk_000"
+    ],
+    "difficulty": "easy",
+    "source": "Cover Page"
+  },
+  {
+    "id": "gold_005",
+    "category": "factual",
+    "query": "What state is Apple Inc. incorporated in?",
+    "answer": "California",
+    "relevant_chunk_ids": [
+      "chunk_000"
+    ],
+    "difficulty": "easy",
+    "source": "Cover Page"
+  },
+  {
+    "id": "gold_006",
+    "category": "factual",
+    "query": "What is Apple's IRS Employer Identification Number?",
+    "answer": "94-2404110",
+    "relevant_chunk_ids": [
+      "chunk_000"
+    ],
+    "difficulty": "easy",
+    "source": "Cover Page"
+  },
+  {
+    "id": "gold_007",
+    "category": "factual",
+    "query": "Which independent registered public accounting firm audited Apple's financial statements?",
+    "answer": "Ernst & Young LLP",
+    "relevant_chunk_ids": [
+      "chunk_239",
+      "chunk_246",
+      "chunk_253"
+    ],
+    "difficulty": "easy",
+    "source": "Item 8 Auditor Report"
+  },
+  {
+    "id": "gold_008",
+    "category": "factual",
+    "query": "What operating system powers Apple's Mac personal computers?",
+    "answer": "macOS",
+    "relevant_chunk_ids": [
+      "chunk_011",
+      "chunk_146"
+    ],
+    "difficulty": "easy",
+    "source": "Item 1 Business Overview"
+  },
+  {
+    "id": "gold_009",
+    "category": "factual",
+    "query": "What operating system powers Apple's iPad tablets?",
+    "answer": "iPadOS",
+    "relevant_chunk_ids": [
+      "chunk_011",
+      "chunk_104",
+      "chunk_105"
+    ],
+    "difficulty": "easy",
+    "source": "Item 1 Business Overview"
+  },
+  {
+    "id": "gold_010",
+    "category": "factual",
+    "query": "What operating system powers the Apple Watch?",
+    "answer": "watchOS",
+    "relevant_chunk_ids": [
+      "chunk_011",
+      "chunk_146"
+    ],
+    "difficulty": "easy",
+    "source": "Item 1 Business Overview"
+  },
+  {
+    "id": "gold_011",
+    "category": "factual",
+    "query": "What operating system powers Apple Vision Pro?",
+    "answer": "visionOS",
+    "relevant_chunk_ids": [
+      "chunk_011"
+    ],
+    "difficulty": "easy",
+    "source": "Item 1 Business Overview"
+  },
+  {
+    "id": "gold_012",
+    "category": "factual",
+    "query": "What operating system powers Apple TV 4K?",
+    "answer": "tvOS",
+    "relevant_chunk_ids": [
+      "chunk_011"
+    ],
+    "difficulty": "easy",
+    "source": "Item 1 Business Overview"
+  },
+  {
+    "id": "gold_013",
+    "category": "factual",
+    "query": "What is the name of Apple's digital application marketplace for iOS and macOS?",
+    "answer": "App Store",
+    "relevant_chunk_ids": [
+      "chunk_013"
+    ],
+    "difficulty": "easy",
+    "source": "Item 1 Services"
+  },
+  {
+    "id": "gold_014",
+    "category": "factual",
+    "query": "What is Apple's cashless payment service that enables mobile transactions?",
+    "answer": "Apple Pay",
+    "relevant_chunk_ids": [
+      "chunk_013",
+      "chunk_014"
+    ],
+    "difficulty": "easy",
+    "source": "Item 1 Services"
+  },
+  {
+    "id": "gold_015",
+    "category": "factual",
+    "query": "What is Apple's music subscription streaming service called?",
+    "answer": "Apple Music",
+    "relevant_chunk_ids": [
+      "chunk_013"
+    ],
+    "difficulty": "easy",
+    "source": "Item 1 Services"
+  },
+  {
+    "id": "gold_016",
+    "category": "factual",
+    "query": "What is Apple's curated gaming subscription service called?",
+    "answer": "Apple Arcade",
+    "relevant_chunk_ids": [
+      "chunk_013"
+    ],
+    "difficulty": "easy",
+    "source": "Item 1 Services"
+  },
+  {
+    "id": "gold_017",
+    "category": "factual",
+    "query": "What is Apple's subscription news and magazine aggregation service called?",
+    "answer": "Apple News+",
+    "relevant_chunk_ids": [
+      "chunk_013"
+    ],
+    "difficulty": "easy",
+    "source": "Item 1 Services"
+  },
+  {
+    "id": "gold_018",
+    "category": "factual",
+    "query": "Who is Apple's Chief Executive Officer (CEO) signing the 10-K certifications?",
+    "answer": "Timothy D. Cook",
+    "relevant_chunk_ids": [
+      "chunk_272",
+      "chunk_273"
+    ],
+    "difficulty": "easy",
+    "source": "Signatures & Certifications"
+  },
+  {
+    "id": "gold_019",
+    "category": "factual",
+    "query": "Who is Apple's Chief Financial Officer signing the 10-K certifications?",
+    "answer": "Kevan Parekh",
+    "relevant_chunk_ids": [
+      "chunk_255",
+      "chunk_271",
+      "chunk_272"
+    ],
+    "difficulty": "easy",
+    "source": "Signatures & Certifications"
+  },
+  {
+    "id": "gold_020",
+    "category": "factual",
+    "query": "What European regulation designated under the acronym DMA imposes gatekeeper rules on Apple?",
+    "answer": "Digital Markets Act (DMA)",
+    "relevant_chunk_ids": [
+      "chunk_106"
+    ],
+    "difficulty": "medium",
+    "source": "Item 1A Risk Factors"
+  },
+  {
+    "id": "gold_021",
+    "category": "numerical",
+    "query": "What was Apple's total net sales in fiscal year 2025?",
+    "answer": "$416,161 million",
+    "relevant_chunk_ids": [
+      "chunk_150",
+      "chunk_151",
+      "chunk_172"
+    ],
+    "difficulty": "easy",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_022",
+    "category": "numerical",
+    "query": "What was Apple's total net sales in fiscal year 2024?",
+    "answer": "$391,035 million",
+    "relevant_chunk_ids": [
+      "chunk_150",
+      "chunk_151",
+      "chunk_172"
+    ],
+    "difficulty": "easy",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_023",
+    "category": "numerical",
+    "query": "What was Apple's total net sales in fiscal year 2023?",
+    "answer": "$383,285 million",
+    "relevant_chunk_ids": [
+      "chunk_150",
+      "chunk_151",
+      "chunk_172"
+    ],
+    "difficulty": "easy",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_024",
+    "category": "numerical",
+    "query": "What were iPhone net sales in fiscal year 2025?",
+    "answer": "$209,586 million",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_191"
+    ],
+    "difficulty": "easy",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_025",
+    "category": "numerical",
+    "query": "What were iPhone net sales in fiscal year 2024?",
+    "answer": "$201,183 million",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_191"
+    ],
+    "difficulty": "easy",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_026",
+    "category": "numerical",
+    "query": "What were iPhone net sales in fiscal year 2023?",
+    "answer": "$200,583 million",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_191"
+    ],
+    "difficulty": "easy",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_027",
+    "category": "numerical",
+    "query": "What were Apple's Services net sales in fiscal year 2025?",
+    "answer": "$109,158 million",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_172",
+      "chunk_191"
+    ],
+    "difficulty": "easy",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_028",
+    "category": "numerical",
+    "query": "What were Apple's Services net sales in fiscal year 2024?",
+    "answer": "$96,169 million",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_172",
+      "chunk_191"
+    ],
+    "difficulty": "easy",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_029",
+    "category": "numerical",
+    "query": "What were Mac net sales in fiscal year 2025?",
+    "answer": "$33,708 million",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_191"
+    ],
+    "difficulty": "easy",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_030",
+    "category": "numerical",
+    "query": "What were Mac net sales in fiscal year 2024?",
+    "answer": "$29,984 million",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_191"
+    ],
+    "difficulty": "easy",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_031",
+    "category": "numerical",
+    "query": "What were iPad net sales in fiscal year 2025?",
+    "answer": "$28,023 million",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_191"
+    ],
+    "difficulty": "easy",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_032",
+    "category": "numerical",
+    "query": "What were iPad net sales in fiscal year 2024?",
+    "answer": "$26,694 million",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_191"
+    ],
+    "difficulty": "easy",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_033",
+    "category": "numerical",
+    "query": "What were Wearables, Home and Accessories net sales in fiscal year 2025?",
+    "answer": "$35,686 million",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_191"
+    ],
+    "difficulty": "easy",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_034",
+    "category": "numerical",
+    "query": "What were Wearables, Home and Accessories net sales in fiscal year 2024?",
+    "answer": "$37,005 million",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_191"
+    ],
+    "difficulty": "easy",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_035",
+    "category": "numerical",
+    "query": "What was Apple's total gross margin in fiscal year 2025?",
+    "answer": "$195,201 million",
+    "relevant_chunk_ids": [
+      "chunk_153",
+      "chunk_172"
+    ],
+    "difficulty": "easy",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_036",
+    "category": "numerical",
+    "query": "What was Apple's total gross margin in fiscal year 2024?",
+    "answer": "$180,683 million",
+    "relevant_chunk_ids": [
+      "chunk_153",
+      "chunk_172"
+    ],
+    "difficulty": "easy",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_037",
+    "category": "numerical",
+    "query": "What was Apple's research and development (R&D) expense in fiscal year 2025?",
+    "answer": "$34,550 million",
+    "relevant_chunk_ids": [
+      "chunk_154",
+      "chunk_172",
+      "chunk_173"
+    ],
+    "difficulty": "easy",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_038",
+    "category": "numerical",
+    "query": "What was Apple's research and development (R&D) expense in fiscal year 2024?",
+    "answer": "$31,370 million",
+    "relevant_chunk_ids": [
+      "chunk_154",
+      "chunk_172",
+      "chunk_173"
+    ],
+    "difficulty": "easy",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_039",
+    "category": "numerical",
+    "query": "What was Apple's selling, general and administrative (SG&A) expense in fiscal year 2025?",
+    "answer": "$27,601 million",
+    "relevant_chunk_ids": [
+      "chunk_154",
+      "chunk_172",
+      "chunk_173"
+    ],
+    "difficulty": "easy",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_040",
+    "category": "numerical",
+    "query": "What was Apple's total operating expenses in fiscal year 2025?",
+    "answer": "$62,151 million",
+    "relevant_chunk_ids": [
+      "chunk_154",
+      "chunk_173"
+    ],
+    "difficulty": "easy",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_041",
+    "category": "numerical",
+    "query": "What was Apple's operating income in fiscal year 2025?",
+    "answer": "$133,050 million",
+    "relevant_chunk_ids": [
+      "chunk_173",
+      "chunk_230"
+    ],
+    "difficulty": "easy",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_042",
+    "category": "numerical",
+    "query": "What was Apple's consolidated net income in fiscal year 2025?",
+    "answer": "$112,010 million",
+    "relevant_chunk_ids": [
+      "chunk_173",
+      "chunk_177",
+      "chunk_178"
+    ],
+    "difficulty": "easy",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_043",
+    "category": "numerical",
+    "query": "What was Apple's basic earnings per share (EPS) in fiscal year 2025?",
+    "answer": "$7.49",
+    "relevant_chunk_ids": [
+      "chunk_173",
+      "chunk_192"
+    ],
+    "difficulty": "easy",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_044",
+    "category": "numerical",
+    "query": "What was Apple's diluted earnings per share (EPS) in fiscal year 2025?",
+    "answer": "$7.46",
+    "relevant_chunk_ids": [
+      "chunk_173",
+      "chunk_192"
+    ],
+    "difficulty": "easy",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_045",
+    "category": "numerical",
+    "query": "What was Apple's cash and cash equivalents balance as of September 27, 2025?",
+    "answer": "$35,934 million",
+    "relevant_chunk_ids": [
+      "chunk_175",
+      "chunk_180",
+      "chunk_194"
+    ],
+    "difficulty": "easy",
+    "source": "Consolidated Balance Sheets"
+  },
+  {
+    "id": "gold_046",
+    "category": "multi-hop",
+    "query": "How did total net sales change between fiscal year 2024 and 2025 in dollar terms and percentage?",
+    "answer": "Total net sales increased from $391,035 million in 2024 to $416,161 million in 2025, an increase of $25,126 million or 6%.",
+    "relevant_chunk_ids": [
+      "chunk_150",
+      "chunk_151",
+      "chunk_172"
+    ],
+    "difficulty": "hard",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_047",
+    "category": "multi-hop",
+    "query": "How did iPhone net sales compare between fiscal year 2024 and 2025?",
+    "answer": "iPhone net sales increased from $201,183 million in 2024 to $209,586 million in 2025, an increase of $8,403 million (or 4%).",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_191"
+    ],
+    "difficulty": "hard",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_048",
+    "category": "multi-hop",
+    "query": "How did Services net sales grow compared to Mac net sales growth between 2024 and 2025?",
+    "answer": "Services net sales grew by 14% (from $96,169M to $109,158M), while Mac net sales grew by 12% (from $29,984M to $33,708M).",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_191"
+    ],
+    "difficulty": "hard",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_049",
+    "category": "multi-hop",
+    "query": "How did R&D expense change between fiscal 2024 and 2025?",
+    "answer": "R&D expense increased from $31,370 million in 2024 to $34,550 million in 2025, an increase of $3,180 million.",
+    "relevant_chunk_ids": [
+      "chunk_154",
+      "chunk_172",
+      "chunk_173"
+    ],
+    "difficulty": "hard",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_050",
+    "category": "multi-hop",
+    "query": "Rank Apple's five product and services categories by revenue in fiscal 2025 from largest to smallest.",
+    "answer": "1. iPhone ($209,586M), 2. Services ($109,158M), 3. Wearables, Home and Accessories ($35,686M), 4. Mac ($33,708M), 5. iPad ($28,023M).",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_191"
+    ],
+    "difficulty": "hard",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_051",
+    "category": "multi-hop",
+    "query": "How did operating income change between fiscal year 2024 and 2025?",
+    "answer": "Operating income increased from $123,216 million in 2024 to $133,050 million in 2025, an increase of $9,834 million.",
+    "relevant_chunk_ids": [
+      "chunk_173",
+      "chunk_230"
+    ],
+    "difficulty": "hard",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_052",
+    "category": "multi-hop",
+    "query": "How did net income and diluted EPS change between fiscal 2024 and 2025?",
+    "answer": "Net income grew from $93,736 million to $112,010 million, driving diluted EPS from $6.08 to $7.46.",
+    "relevant_chunk_ids": [
+      "chunk_173",
+      "chunk_192"
+    ],
+    "difficulty": "hard",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_053",
+    "category": "multi-hop",
+    "query": "How did total gross margin change between fiscal year 2024 and 2025?",
+    "answer": "Gross margin increased from $180,683 million in 2024 to $195,201 million in 2025, an increase of $14,518 million.",
+    "relevant_chunk_ids": [
+      "chunk_153",
+      "chunk_172"
+    ],
+    "difficulty": "hard",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_054",
+    "category": "multi-hop",
+    "query": "How did total operating expenses compare between fiscal 2024 and 2025?",
+    "answer": "Total operating expenses rose from $57,467 million in 2024 to $62,151 million in 2025, an increase of $4,684 million.",
+    "relevant_chunk_ids": [
+      "chunk_154",
+      "chunk_173"
+    ],
+    "difficulty": "hard",
+    "source": "Consolidated Statements of Operations"
+  },
+  {
+    "id": "gold_055",
+    "category": "multi-hop",
+    "query": "How did Products gross margin compare with Services gross margin in fiscal 2025 in dollar terms?",
+    "answer": "In 2025, Products gross margin was $112,887 million, while Services gross margin was $82,314 million.",
+    "relevant_chunk_ids": [
+      "chunk_152",
+      "chunk_153"
+    ],
+    "difficulty": "hard",
+    "source": "Item 7 MD&A Gross Margin"
+  },
+  {
+    "id": "gold_056",
+    "category": "multi-hop",
+    "query": "Which product category experienced a year-over-year sales decline between fiscal 2024 and 2025?",
+    "answer": "Wearables, Home and Accessories was the only category to decline, falling from $37,005 million to $35,686 million (-4%).",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_191"
+    ],
+    "difficulty": "medium",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_057",
+    "category": "multi-hop",
+    "query": "How did Mac sales compare to iPad sales in fiscal year 2025?",
+    "answer": "Mac sales reached $33,708 million, exceeding iPad sales of $28,023 million by $5,685 million.",
+    "relevant_chunk_ids": [
+      "chunk_151",
+      "chunk_191"
+    ],
+    "difficulty": "medium",
+    "source": "Segment Net Sales"
+  },
+  {
+    "id": "gold_058",
+    "category": "multi-hop",
+    "query": "What was the year-over-year change in commercial paper balance between 2024 and 2025?",
+    "answer": "Commercial paper decreased from $9,967 million as of September 28, 2024 to $7,979 million as of September 27, 2025.",
+    "relevant_chunk_ids": [
+      "chunk_175"
+    ],
+    "difficulty": "medium",
+    "source": "Consolidated Balance Sheets"
+  },
+  {
+    "id": "gold_059",
+    "category": "multi-hop",
+    "query": "How did cash and cash equivalents change between September 28, 2024 and September 27, 2025?",
+    "answer": "Cash and cash equivalents increased from $29,943 million in 2024 to $35,934 million in 2025.",
+    "relevant_chunk_ids": [
+      "chunk_175",
+      "chunk_180"
+    ],
+    "difficulty": "medium",
+    "source": "Consolidated Balance Sheets"
+  },
+  {
+    "id": "gold_060",
+    "category": "multi-hop",
+    "query": "How did total current assets change between fiscal 2024 and 2025?",
+    "answer": "Total current assets decreased from $152,987 million in 2024 to $147,957 million in 2025.",
+    "relevant_chunk_ids": [
+      "chunk_175"
+    ],
+    "difficulty": "medium",
+    "source": "Consolidated Balance Sheets"
+  },
+  {
+    "id": "gold_061",
+    "category": "summarization",
+    "query": "Summarize the principal risks Apple faces regarding outsourced manufacturing in China.",
+    "answer": "Apple relies substantially on outsourced manufacturing and assembly partners in China. Any political tensions, trade restrictions, or operational disruptions could severely constrain production and shipments.",
+    "relevant_chunk_ids": [
+      "chunk_058"
+    ],
+    "difficulty": "medium",
+    "source": "Item 1A Risk Factors"
+  },
+  {
+    "id": "gold_062",
+    "category": "summarization",
+    "query": "What regulatory exposure does Apple disclose regarding the European Union Digital Markets Act (DMA)?",
+    "answer": "The European Commission designated Apple under the DMA, requiring Apple to support alternative app distribution, alternative fee structures, and alternative payment processing, creating compliance risks and potential substantial fines.",
+    "relevant_chunk_ids": [
+      "chunk_106"
+    ],
+    "difficulty": "hard",
+    "source": "Item 1A Risk Factors"
+  },
+  {
+    "id": "gold_063",
+    "category": "summarization",
+    "query": "Summarize Apple's accounting policies regarding management estimates and GAAP conformity.",
+    "answer": "Apple prepares its consolidated financial statements in conformity with GAAP, requiring the use of management estimates and assumptions that affect reported amounts.",
+    "relevant_chunk_ids": [
+      "chunk_164",
+      "chunk_181"
+    ],
+    "difficulty": "hard",
+    "source": "Note 1 Summary of Accounting Policies"
+  },
+  {
+    "id": "gold_064",
+    "category": "summarization",
+    "query": "Describe Apple's capital return program strategy regarding dividends and share repurchases.",
+    "answer": "Apple returns capital to shareholders through regular quarterly dividends and open-market common stock repurchases under authorized board programs.",
+    "relevant_chunk_ids": [
+      "chunk_129",
+      "chunk_130",
+      "chunk_159"
+    ],
+    "difficulty": "medium",
+    "source": "Liquidity & Capital Resources"
+  },
+  {
+    "id": "gold_065",
+    "category": "summarization",
+    "query": "What risks does Apple disclose regarding single-source component suppliers and custom silicon foundries?",
+    "answer": "Apple obtains several critical components, including custom silicon and displays, from single or limited-source foundries, leaving Apple vulnerable to supplier shortages and capacity constraints.",
+    "relevant_chunk_ids": [
+      "chunk_058"
+    ],
+    "difficulty": "medium",
+    "source": "Item 1A Risk Factors"
+  },
+  {
+    "id": "gold_066",
+    "category": "summarization",
+    "query": "Summarize Apple's commercial paper and short-term debt position.",
+    "answer": "Apple maintains active commercial paper and term debt programs for working capital, capital return, and general corporate purposes.",
+    "relevant_chunk_ids": [
+      "chunk_175",
+      "chunk_180",
+      "chunk_216"
+    ],
+    "difficulty": "medium",
+    "source": "Consolidated Balance Sheets"
+  },
+  {
+    "id": "gold_067",
+    "category": "summarization",
+    "query": "What antitrust allegations has Apple faced from civil lawsuits in the U.S.?",
+    "answer": "Apple is subject to civil antitrust lawsuits alleging monopolization or attempted monopolization in smartphone markets regarding App Store rules and developer restrictions.",
+    "relevant_chunk_ids": [
+      "chunk_108",
+      "chunk_137"
+    ],
+    "difficulty": "hard",
+    "source": "Item 1A Risk Factors"
+  },
+  {
+    "id": "gold_068",
+    "category": "summarization",
+    "query": "Summarize how Apple uses derivative instruments to manage risk.",
+    "answer": "Apple enters into derivative financial instruments recorded at fair value to mitigate risks from foreign currency and interest rate fluctuations.",
+    "relevant_chunk_ids": [
+      "chunk_167",
+      "chunk_169",
+      "chunk_174"
+    ],
+    "difficulty": "hard",
+    "source": "Note on Financial Instruments"
+  },
+  {
+    "id": "gold_069",
+    "category": "summarization",
+    "query": "Summarize Apple's primary geographic reportable segments.",
+    "answer": "Apple manages its business primarily on a geographic basis, reporting across Americas, Europe, Greater China, Japan, and Rest of Asia Pacific.",
+    "relevant_chunk_ids": [
+      "chunk_014",
+      "chunk_228"
+    ],
+    "difficulty": "medium",
+    "source": "Item 1 Business Overview"
+  },
+  {
+    "id": "gold_070",
+    "category": "summarization",
+    "query": "Summarize Apple's properties and leased corporate facilities.",
+    "answer": "Apple owns and leases facilities for corporate functions, R&D, data centers, and retail stores across the U.S. and internationally.",
+    "relevant_chunk_ids": [
+      "chunk_134"
+    ],
+    "difficulty": "medium",
+    "source": "Item 2 Properties"
+  },
+  {
+    "id": "gold_071",
+    "category": "summarization",
+    "query": "What cybersecurity and operational resilience risks does Apple emphasize?",
+    "answer": "Apple is targeted by sophisticated cyberattacks and operational threats that could compromise customer data or disrupt network services.",
+    "relevant_chunk_ids": [
+      "chunk_006",
+      "chunk_134"
+    ],
+    "difficulty": "medium",
+    "source": "Item 1A Risk Factors"
+  },
+  {
+    "id": "gold_072",
+    "category": "summarization",
+    "query": "Describe Apple's disclosures regarding critical accounting estimates.",
+    "answer": "Critical accounting estimates include complex management judgments regarding revenue recognition, valuation of inventory, warranties, and income taxes.",
+    "relevant_chunk_ids": [
+      "chunk_164"
+    ],
+    "difficulty": "hard",
+    "source": "Item 7 Critical Accounting Estimates"
+  },
+  {
+    "id": "gold_073",
+    "category": "summarization",
+    "query": "What role does Apple's active installed base play in driving Services growth?",
+    "answer": "Apple's large and growing active installed base of devices drives ongoing user engagement and recurring revenue across Services offerings.",
+    "relevant_chunk_ids": [
+      "chunk_018",
+      "chunk_051"
+    ],
+    "difficulty": "medium",
+    "source": "Item 1 Business Overview"
+  },
+  {
+    "id": "gold_074",
+    "category": "summarization",
+    "query": "What risks does Apple disclose regarding tariffs and international trade disputes?",
+    "answer": "Tariffs announced on imports to the U.S. from China and other nations could increase product costs, strain supply chains, and trigger reciprocal international trade barriers.",
+    "relevant_chunk_ids": [
+      "chunk_038",
+      "chunk_040",
+      "chunk_041"
+    ],
+    "difficulty": "medium",
+    "source": "Item 1A Risk Factors"
+  },
+  {
+    "id": "gold_075",
+    "category": "summarization",
+    "query": "Summarize Apple's patent and intellectual property litigation exposure.",
+    "answer": "Apple regularly faces patent infringement lawsuits and legal claims from entities seeking injunctions or licensing royalties.",
+    "relevant_chunk_ids": [
+      "chunk_093"
+    ],
+    "difficulty": "hard",
+    "source": "Item 1A Risk Factors"
+  },
+  {
+    "id": "gold_076",
+    "category": "out_of_corpus",
+    "query": "What was Microsoft Corporation's total revenue for fiscal year 2024?",
+    "answer": "Microsoft reported total revenue of $245.1 billion for fiscal year 2024 (ended June 30, 2024).",
+    "relevant_chunk_ids": [],
+    "difficulty": "medium",
+    "source": "External: Microsoft FY2024 10-K",
+    "expected_action": "INCORRECT"
+  },
+  {
+    "id": "gold_077",
+    "category": "out_of_corpus",
+    "query": "Who were the recipients of the 2024 Nobel Memorial Prize in Economic Sciences?",
+    "answer": "The 2024 Nobel Memorial Prize in Economic Sciences was awarded to Daron Acemoglu, Simon Johnson, and James A. Robinson for studies of how institutions are formed and affect prosperity.",
+    "relevant_chunk_ids": [],
+    "difficulty": "easy",
+    "source": "External: Nobel Prize Committee Announcement 2024",
+    "expected_action": "INCORRECT"
+  },
+  {
+    "id": "gold_078",
+    "category": "out_of_corpus",
+    "query": "Where is Taiwan Semiconductor Manufacturing Company (TSMC) headquartered?",
+    "answer": "TSMC is headquartered in the Hsinchu Science Park in Hsinchu, Taiwan.",
+    "relevant_chunk_ids": [],
+    "difficulty": "easy",
+    "source": "External: TSMC Corporate Overview",
+    "expected_action": "INCORRECT"
+  },
+  {
+    "id": "gold_079",
+    "category": "out_of_corpus",
+    "query": "When was OpenAI's GPT-4o multimodal model officially announced?",
+    "answer": "OpenAI officially announced GPT-4o on May 13, 2024 during a live spring update event.",
+    "relevant_chunk_ids": [],
+    "difficulty": "easy",
+    "source": "External: OpenAI Spring Update 2024",
+    "expected_action": "INCORRECT"
+  },
+  {
+    "id": "gold_080",
+    "category": "out_of_corpus",
+    "query": "What was Alphabet Inc.'s total advertising revenue in fiscal year 2024?",
+    "answer": "Alphabet reported Google advertising revenue of approximately $264.4 billion in fiscal year 2024.",
+    "relevant_chunk_ids": [],
+    "difficulty": "medium",
+    "source": "External: Alphabet FY2024 Annual Report",
+    "expected_action": "INCORRECT"
+  },
+  {
+    "id": "gold_081",
+    "category": "out_of_corpus",
+    "query": "Which company designs and manufactures the Pixel 9 and Pixel 9 Pro smartphones?",
+    "answer": "Google (Alphabet Inc.) designs, develops, and markets the Pixel 9 and Pixel 9 Pro smartphones.",
+    "relevant_chunk_ids": [],
+    "difficulty": "easy",
+    "source": "External: Google Hardware Launch",
+    "expected_action": "INCORRECT"
+  },
+  {
+    "id": "gold_082",
+    "category": "comparative",
+    "query": "Who is the Chief Executive Officer of Apple Inc., and who is the Chief Executive Officer of Microsoft Corporation?",
+    "answer": "Tim Cook is the Chief Executive Officer of Apple Inc., and Satya Nadella is the Chief Executive Officer of Microsoft Corporation.",
+    "relevant_chunk_ids": [
+      "chunk_000",
+      "chunk_018"
+    ],
+    "difficulty": "medium",
+    "source": "Hybrid: Apple 10-K + Microsoft Leadership",
+    "expected_action": "AMBIGUOUS"
+  },
+  {
+    "id": "gold_083",
+    "category": "comparative",
+    "query": "What were Apple's total net sales in fiscal 2025, and what was Nvidia Corporation's total revenue for fiscal year 2025?",
+    "answer": "Apple recorded total net sales of $391,035 million in fiscal year 2025, while Nvidia reported full-year fiscal 2025 revenue of approximately $130.5 billion (reflecting substantial growth driven by AI data center demand).",
+    "relevant_chunk_ids": [
+      "chunk_001",
+      "chunk_048"
+    ],
+    "difficulty": "hard",
+    "source": "Hybrid: Apple 10-K + Nvidia FY25 Earnings",
+    "expected_action": "AMBIGUOUS"
+  },
+  {
+    "id": "gold_084",
+    "category": "comparative",
+    "query": "What proprietary operating system powers Apple's iPhone devices, and who develops the Android operating system?",
+    "answer": "Apple's iPhone is powered by Apple's proprietary iOS operating system, whereas the Android operating system is developed by Google (Alphabet Inc.) and the Open Handset Alliance.",
+    "relevant_chunk_ids": [
+      "chunk_001",
+      "chunk_005"
+    ],
+    "difficulty": "easy",
+    "source": "Hybrid: Apple 10-K + Google Android",
+    "expected_action": "AMBIGUOUS"
+  },
+  {
+    "id": "gold_085",
+    "category": "comparative",
+    "query": "On which stock exchange does Apple Inc. trade, and on which exchange is Amazon.com, Inc. listed?",
+    "answer": "Apple Inc. common stock is traded on The Nasdaq Stock Market LLC (ticker AAPL), and Amazon.com, Inc. is also listed on The Nasdaq Stock Market (ticker AMZN).",
+    "relevant_chunk_ids": [
+      "chunk_000"
+    ],
+    "difficulty": "medium",
+    "source": "Hybrid: Apple 10-K + Amazon Investor Relations",
+    "expected_action": "AMBIGUOUS"
+  }
+]

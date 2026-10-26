@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AURA CRAG — Enterprise Financial Intelligence & Glass-Box Studio</title>
+  <meta name="description" content="Production-grade Corrective RAG (CRAG) system indexing Apple Inc. FY2025 Form 10-K with dual-threshold routing, Tavily web fallback, and glass-box pipeline inspection." />
+  
+  <!-- Google Fonts: Plus Jakarta Sans, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Markdown Renderer -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.1/marked.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Atmospheric Warm Ambient Glows -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+
+  <!-- Top Navigation Bar -->
+  <header class="app-header">
+    <div class="header-brand">
+      <div class="brand-logo">
+        <span class="logo-icon">✧</span>
+      </div>
+      <div>
+        <div class="brand-title">AURA <span class="brand-badge-crag">CRAG</span></div>
+        <div class="brand-subtitle">Corrective RAG Intelligence Studio • Glass-Box Architecture</div>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <div id="backend-status" class="status-pill status-checking">
+        <span class="status-dot"></span>
+        <span id="status-text">Connecting to Engine...</span>
+      </div>
+      <a href="/docs" target="_blank" class="nav-link" title="Open Swagger OpenAPI Documentation">
+        <span>Swagger API</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+      </a>
+      <a href="https://github.com" target="_blank" class="nav-link-secondary" title="View Project Source">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        <span>v1.0.0</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Split-Screen Workspace -->
+  <main class="studio-layout">
+    
+    <!-- LEFT PANEL: Studio Console (Query Input, Presets, Synthesized Answer, Latency & Cost) -->
+    <section class="studio-pane console-pane">
+      <div class="pane-content">
+        
+        <!-- Corpus Context Pill -->
+        <div class="corpus-banner">
+          <div class="corpus-icon">📄</div>
+          <div class="corpus-info">
+            <span class="corpus-tag">INDEXED CORPUS</span>
+            <span class="corpus-name">Apple Inc. (AAPL) Form 10-K FY2025</span>
+          </div>
+          <div class="corpus-stat">274 Chunks • BGE + BM25</div>
+        </div>
+
+        <!-- Query Form -->
+        <form id="query-form" class="query-card">
+          <div class="query-input-wrap">
+            <label for="query-input" class="query-label">Financial Query or General Question</label>
+            <textarea
+              id="query-input"
+              rows="3"
+              placeholder="Ask anything about Apple's 10-K filing or test CRAG out-of-corpus web search..."
+              required
+            ></textarea>
+          </div>
+
+          <!-- Controls Bar -->
+          <div class="query-controls">
+            <div class="control-toggles">
+              <label class="toggle-wrap" title="Enable/Disable CRAG Evaluator & Web Search Router">
+                <input type="checkbox" id="toggle-crag" checked />
+                <span class="toggle-slider"></span>
+                <span class="toggle-text">CRAG Engine</span>
+              </label>
+
+              <div class="top-k-select-wrap">
+                <label for="select-top-k">Top-K Chunks:</label>
+                <select id="select-top-k">
+                  <option value="3">3</option>
+                  <option value="5" selected>5</option>
+                  <option value="8">8</option>
+                </select>
+              </div>
+            </div>
+
+            <button type="submit" id="btn-submit" class="btn-primary">
+              <span class="btn-text">Execute CRAG</span>
+              <span class="btn-icon">⚡</span>
+            </button>
+          </div>
+        </form>
+
+        <!-- Quick Test Chips -->
+        <div class="preset-section">
+          <div class="preset-header">
+            <span class="preset-title">TRY PRESET BENCHMARK QUERIES</span>
+            <span class="preset-hint">Click any chip to autofill & test</span>
+          </div>
+          <div class="preset-chips">
+            <button class="chip" data-query="What was Apple's total net sales in fiscal year 2025?">
+              <span class="chip-tag tag-num">NUMERICAL</span>
+              <span class="chip-label">Total Net Sales 2025</span>
+            </button>
+            <button class="chip" data-query="Compare iPhone net sales between fiscal 2024 and 2025.">
+              <span class="chip-tag tag-comp">COMPARISON</span>
+              <span class="chip-label">iPhone Revenue 24 vs 25</span>
+            </button>
+            <button class="chip" data-query="What are Apple's principal business risks regarding supply chain concentration and single-source suppliers?">
+              <span class="chip-tag tag-hop">MULTI-HOP</span>
+              <span class="chip-label">Supply Chain Risks</span>
+            </button>
+            <button class="chip" data-query="Who is the CEO of Nvidia in 2025 and what are their flagship AI products?">
+              <span class="chip-tag tag-web">WEB SEARCH</span>
+              <span class="chip-label">Nvidia CEO (Out-of-Corpus)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Synthesized Answer Card -->
+        <div id="answer-card" class="answer-card hidden">
+          <div class="answer-header">
+            <div class="answer-title-group">
+              <span class="answer-sparkle">✦</span>
+              <h2 class="answer-title">Synthesized Answer</h2>
+            </div>
+            <div id="crag-action-badge" class="action-badge badge-correct">
+              CORRECT
+            </div>
+          </div>
+
+          <div id="answer-body" class="answer-body markdown-content">
+            <!-- Rendered Markdown goes here -->
+          </div>
+
+          <!-- Citation References List -->
+          <div id="citation-panel" class="citation-panel">
+            <div class="citation-title">SOURCE CITATIONS & ATTRIBUTION</div>
+            <div id="citation-chips" class="citation-chips">
+              <!-- Dynamically populated citation pills -->
+            </div>
+          </div>
+
+          <!-- Audit Metrics Footer -->
+          <div class="answer-metrics-bar">
+            <div class="metric-item">
+              <span class="metric-label">Latency</span>
+              <span id="metric-latency" class="metric-val">-- ms</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">Attribution</span>
+              <span id="metric-attribution" class="metric-val val-highlight">--%</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">Prompt Tokens</span>
+              <span id="metric-tokens" class="metric-val">--</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">Est. Cost</span>
+              <span id="metric-cost" class="metric-val">--</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Placeholder when no query has run yet -->
+        <div id="empty-state" class="empty-state">
+          <div class="empty-icon">💎</div>
+          <h3 class="empty-title">Ready for Financial Querying</h3>
+          <p class="empty-desc">
+            Type a question above or select a preset benchmark chip. Watch the 5-layer Glass-Box inspector decompose, retrieve, route, and synthesize the result in real time.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- RIGHT PANEL: Glass-Box Pipeline Inspector -->
+    <section class="studio-pane inspector-pane">
+      <div class="pane-content">
+        
+        <!-- Inspector Header & Tab Navigation -->
+        <div class="inspector-header">
+          <div class="inspector-title-group">
+            <span class="inspector-icon">🔍</span>
+            <h2 class="inspector-title">Glass-Box Pipeline Inspector</h2>
+          </div>
+          <span class="inspector-tag">5 ARCHITECTURAL STAGES</span>
+        </div>
+
+        <!-- Stage Navigation Tabs -->
+        <nav class="stage-tabs" role="tablist">
+          <button class="stage-tab active" data-tab="tab-query">
+            <span class="tab-step">01</span>
+            <span class="tab-name">Query Proc</span>
+          </button>
+          <button class="stage-tab" data-tab="tab-hybrid">
+            <span class="tab-step">02</span>
+            <span class="tab-name">Hybrid Ret</span>
+          </button>
+          <button class="stage-tab" data-tab="tab-fusion">
+            <span class="tab-step">03</span>
+            <span class="tab-name">RRF & Rerank</span>
+          </button>
+          <button class="stage-tab" data-tab="tab-crag">
+            <span class="tab-step">04</span>
+            <span class="tab-name">CRAG Engine</span>
+          </button>
+          <button class="stage-tab" data-tab="tab-audit">
+            <span class="tab-step">05</span>
+            <span class="tab-name">Audit & Waterfall</span>
+          </button>
+        </nav>
+
+        <!-- TAB 1: Query Processing -->
+        <div id="tab-query" class="tab-content active">
+          <div class="stage-intro">
+            <h4>Stage 1: Intent Classification & Decontextualization</h4>
+            <p>Classifies query into operational taxonomy and decomposes multi-hop or comparative targets into atomic sub-questions.</p>
+          </div>
+
+          <div class="stage-meta-grid">
+            <div class="meta-card">
+              <span class="meta-card-label">CLASSIFIED TYPE</span>
+              <span id="stg1-query-type" class="meta-card-value font-mono">Waiting for query...</span>
+            </div>
+            <div class="meta-card">
+              <span class="meta-card-label">ORIGINAL QUERY LENGTH</span>
+              <span id="stg1-query-len" class="meta-card-value font-mono">-- chars</span>
+            </div>
+          </div>
+
+          <div class="card-box mt-3">
+            <div class="card-box-header">Decomposed Atomic Sub-Queries</div>
+            <div id="stg1-subqueries" class="card-box-body">
+              <span class="empty-text">No active decomposition yet.</span>
+            </div>
+          </div>
+
+          <div class="card-box mt-3">
+            <div class="card-box-header">Expanded Lexical Variations</div>
+            <div id="stg1-expanded" class="card-box-body">
+              <span class="empty-text">No query expansions yet.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB 2: Hybrid Retrieval (Dense vs. Sparse) -->
+        <div id="tab-hybrid" class="tab-content">
+          <div class="stage-intro">
+            <h4>Stage 2: Dense Semantic (Qdrant) vs. Sparse Lexical (BM25)</h4>
+            <p>Compares dual-engine candidate retrieval before fusion. Qdrant captures semantic intent via BGE-base; BM25 catches exact keyword/numeric occurrences.</p>
+          </div>
+
+          <div class="dual-retrieval-grid">
+            <!-- Dense Qdrant Column -->
+            <div class="retrieval-col">
+              <div class="retrieval-col-header col-dense">
+                <span>⚡ Dense: Qdrant (BGE-base-en-v1.5)</span>
+                <span id="stg2-dense-count" class="badge-mini">0 chunks</span>
+              </div>
+              <div id="stg2-dense-list" class="retrieval-list">
+                <span class="empty-text">Awaiting retrieval execution...</span>
+              </div>
+            </div>
+
+            <!-- Sparse BM25 Column -->
+            <div class="retrieval-col">
+              <div class="retrieval-col-header col-sparse">
+                <span>📖 Sparse: BM25Okapi Index</span>
+                <span id="stg2-sparse-count" class="badge-mini">0 chunks</span>
+              </div>
+              <div id="stg2-sparse-list" class="retrieval-list">
+                <span class="empty-text">Awaiting retrieval execution...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB 3: RRF Fusion & Cross-Encoder Reranker -->
+        <div id="tab-fusion" class="tab-content">
+          <div class="stage-intro">
+            <h4>Stage 3: Reciprocal Rank Fusion & ms-marco-MiniLM Reranker</h4>
+            <p>RRF merges rank lists using formula RRF(d) = Σ 1 / (60 + rank). The top candidates are then rescored by a cross-encoder model to capture deep query-document interactions.</p>
+          </div>
+
+          <div class="card-box">
+            <div class="card-box-header">
+              <span>Cross-Encoder Top-5 Reranked Candidates</span>
+              <span class="badge-mini">ms-marco-MiniLM-L6-v2</span>
+            </div>
+            <div id="stg3-reranked-list" class="reranked-list">
+              <span class="empty-text">Awaiting reranker scoring...</span>
+            </div>
+          </div>
+
+          <div class="card-box mt-3">
+            <div class="card-box-header">RRF Candidate Pool (Merged Ranks)</div>
+            <div id="stg3-rrf-pool" class="rrf-tags-list">
+              <span class="empty-text">No RRF candidates yet.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB 4: CRAG State Machine & Knowledge Refinement -->
+        <div id="tab-crag" class="tab-content">
+          <div class="stage-intro">
+            <h4>Stage 4: Corrective RAG Dual-Threshold State Machine</h4>
+            <p>Gemma-31B pointwise evaluation evaluates each candidate. If mean score &ge; 0.70 &rarr; <b>CORRECT</b> (internal strip refinement). If &le; 0.30 &rarr; <b>INCORRECT</b> (Tavily web fallback). In between &rarr; <b>AMBIGUOUS</b> (hybrid synthesis).</p>
+          </div>
+
+          <!-- State Decision Banner -->
+          <div id="stg4-decision-banner" class="decision-banner banner-idle">
+            <div class="decision-indicator">
+              <div class="decision-circle">--</div>
+            </div>
+            <div class="decision-details">
+              <div class="decision-title">CRAG Router Decision: <span id="stg4-action-text">IDLE</span></div>
+              <div class="decision-thresholds">
+                Confidence: <b id="stg4-confidence-val">--</b> (Thresholds: T_High = 0.70, T_Low = 0.30)
+              </div>
+            </div>
+          </div>
+
+          <!-- Pointwise Chunk Scores -->
+          <div class="card-box mt-3">
+            <div class="card-box-header">Gemma-31B Pointwise Evaluator Scores</div>
+            <div id="stg4-eval-scores" class="eval-scores-grid">
+              <span class="empty-text">Awaiting evaluator judgment...</span>
+            </div>
+          </div>
+
+          <!-- Strip Refinement or Web Search Details -->
+          <div id="stg4-dynamic-section" class="card-box mt-3">
+            <div id="stg4-dynamic-header" class="card-box-header">Knowledge Refinement / Web Fallback</div>
+            <div id="stg4-dynamic-body" class="card-box-body">
+              <span class="empty-text">No refinement data available.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB 5: Attribution Audit & Latency Waterfall -->
+        <div id="tab-audit" class="tab-content">
+          <div class="stage-intro">
+            <h4>Stage 5: Dual-Source Attribution Audit & Latency Waterfall</h4>
+            <p>Audits every citation against the verified context to guarantee zero hallucinated citations and measures latency across every pipeline stage.</p>
+          </div>
+
+          <!-- Citation Audit Summary -->
+          <div class="audit-summary-grid">
+            <div class="meta-card">
+              <span class="meta-card-label">VERIFIED CITATIONS</span>
+              <span id="stg5-verified-cites" class="meta-card-value font-mono">0</span>
+            </div>
+            <div class="meta-card">
+              <span class="meta-card-label">UNSUPPORTED CLAIMS</span>
+              <span id="stg5-hallucinated-cites" class="meta-card-value font-mono">0</span>
+            </div>
+            <div class="meta-card">
+              <span class="meta-card-label">ATTRIBUTION SCORE</span>
+              <span id="stg5-attribution-score" class="meta-card-value font-mono val-highlight">100.0%</span>
+            </div>
+          </div>
+
+          <!-- Latency Waterfall Bar Chart -->
+          <div class="card-box mt-3">
+            <div class="card-box-header">Execution Latency Waterfall (ms)</div>
+            <div id="stg5-latency-waterfall" class="waterfall-container">
+              <span class="empty-text">Awaiting latency profile...</span>
+            </div>
+          </div>
+
+          <!-- Final Assembled Generation Context -->
+          <div class="card-box mt-3">
+            <div class="card-box-header">
+              <span>Final Assembled Context Given to Generator</span>
+              <button id="btn-copy-context" class="btn-mini">Copy Context</button>
+            </div>
+            <pre id="stg5-final-context" class="context-preview"><code>Awaiting query execution...</code></pre>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
